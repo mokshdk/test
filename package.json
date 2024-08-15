@@ -1,7 +1,7 @@
 {
-  "name": "discord.js-selfbot-v13",
-  "version": "3.3.0",
-  "description": "A unofficial discord.js fork for creating selfbots [Based on discord.js v13]",
+  "name": "test-repo",
+  "version": "3.2.2",
+  "description": "A unofficial discord.js fork for creating bots [Based on discord.js v13]",
   "main": "./src/index.js",
   "types": "./typings/index.d.ts",
   "scripts": {
@@ -29,13 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aiko-chan-ai/discord.js-selfbot-v13.git"
+    "url": "git+https://github.com/Incredibleflamer/test-repo.git"
   },
   "keywords": [
     "discord.js",
-    "discord.js v13",
-    "selfbot",
-    "selfbot v13",
     "djs",
     "api",
     "bot",
@@ -47,23 +44,22 @@
   "author": "aiko-chan-ai",
   "license": "GNU General Public License v3.0",
   "bugs": {
-    "url": "https://github.com/aiko-chan-ai/discord.js-selfbot-v13/issues"
+    "url": "https://github.com/Incredibleflamer/test-repo/issues"
   },
-  "homepage": "https://github.com/aiko-chan-ai/discord.js-selfbot-v13#readme",
+  "homepage": "https://github.com/Incredibleflamer/test-repo",
   "dependencies": {
+    "@aikochan2k6/qrcode-terminal": "^0.12.1",
     "@discordjs/builders": "^1.6.3",
     "@discordjs/collection": "^1.5.3",
-    "@sapphire/async-queue": "^1.5.3",
+    "@sapphire/async-queue": "^1.5.2",
     "@sapphire/shapeshift": "^3.9.5",
+    "@types/node-fetch": "^2.6.11",
+    "@types/ws": "^8.5.10",
     "discord-api-types": "^0.37.61",
     "fetch-cookie": "^2.1.0",
-    "find-process": "^1.4.7",
     "form-data": "^4.0.0",
     "node-fetch": "^2.6.9",
-    "prism-media": "^1.3.5",
-    "qrcode": "^1.5.3",
     "tough-cookie": "^4.1.4",
-    "tree-kill": "^1.2.2",
     "ws": "^8.16.0"
   },
   "engines": {
@@ -75,9 +71,7 @@
     "@commitlint/config-angular": "^16.0.0",
     "@discordjs/docgen": "^0.11.1",
     "@favware/npm-deprecate": "^1.0.7",
-    "@types/node": "^20.14.12",
-    "@types/node-fetch": "^2.6.11",
-    "@types/ws": "^8.5.10",
+    "@types/node": "^18.16.0",
     "conventional-changelog-cli": "^2.2.2",
     "dtslint": "^4.2.1",
     "eslint": "^8.39.0",
@@ -91,6 +85,6 @@
     "prettier": "^2.8.8",
     "tsd": "^0.28.1",
     "tslint": "^6.1.3",
-    "typescript": "^5.5.4"
+    "typescript": "^4.9.5"
   }
 }
